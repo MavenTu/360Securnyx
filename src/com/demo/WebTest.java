@@ -56,9 +56,7 @@ public class WebTest {
 		Thread.sleep(4000);
 		driver.findElement(By.xpath("//a[normalize-space()='Sign out']")).click();
 		Thread.sleep(6000);
-		
-		
-		driver.close();
+		driver.quit();
 		
 		
 
