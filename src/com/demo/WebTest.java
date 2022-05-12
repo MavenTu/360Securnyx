@@ -41,9 +41,9 @@ public class WebTest {
 		Thread.sleep(4000);
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/input[1]")).sendKeys("Biswas");
 		Thread.sleep(4000);
-		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[3]/div[1]/input[1]")).sendKeys("sunnibiswas@yopmail.com");
+		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[3]/div[1]/input[1]")).sendKeys("sunnidas@yopmail.com");
 		Thread.sleep(4000);
-		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[4]/div[1]/input[1]")).sendKeys("8535887740");
+		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[4]/div[1]/input[1]")).sendKeys("8235887740");
 		Thread.sleep(4000);
 		driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[6]/div[1]/div[1]/label[1]/span[1]")).click();
 		Thread.sleep(4000);
@@ -56,7 +56,7 @@ public class WebTest {
 		Thread.sleep(4000);
 		driver.findElement(By.xpath("//a[normalize-space()='Sign out']")).click();
 		Thread.sleep(6000);
-		driver.quit();
+		driver.close();
 		
 		
 
